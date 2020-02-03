@@ -22,8 +22,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        //title: Text('Techognize'),
-        title: Image.asset('assets/images/icons/logo/purple-white-banner.png', fit: BoxFit.cover),
+        title: Text('Techognize'),
+        // title: Image.asset('assets/images/icons/logo/purple-white-banner.png', fit: BoxFit.cover),
       ),
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
